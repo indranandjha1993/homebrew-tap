@@ -2,7 +2,7 @@ class Devvm < Formula
   desc "Developer VM manager — 6 languages, 3 databases, Grafana observability, app hosting"
   homepage "https://github.com/indranandjha1993/devvm"
   url "https://github.com/indranandjha1993/devvm/archive/refs/tags/v2.1.0.tar.gz"
-  sha256 "2094cf297f82fa0e51c1d9564da613885edd47b6540af88fb8c1d317ce80c8a3"
+  sha256 "7e2683f82e2dbd992e2deed431d7f675519d529827d9f0a8561ca6e9301c9b54"
   license "MIT"
 
   def install

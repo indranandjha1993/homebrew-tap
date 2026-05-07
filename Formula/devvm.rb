@@ -1,8 +1,8 @@
 class Devvm < Formula
   desc "Developer VM manager — 6 languages, 3 databases, Grafana observability, app hosting"
   homepage "https://github.com/indranandjha1993/devvm"
-  url "https://github.com/indranandjha1993/devvm/archive/refs/tags/v2.1.0.tar.gz"
-  sha256 "7e2683f82e2dbd992e2deed431d7f675519d529827d9f0a8561ca6e9301c9b54"
+  url "https://github.com/indranandjha1993/devvm/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "9914db2b9e1ee0d8f2a7d5a99dce97477d5543281228d518fa0cf75493f92c27"
   license "MIT"
 
   def install
@@ -24,9 +24,11 @@ class Devvm < Formula
     <<~EOS
       Requires OrbStack: https://orbstack.dev
 
-      Quick start:
+      First time:
         devvm init       # create VM + install everything
-        devvm status     # see what's running
+
+      After every 'brew upgrade devvm':
+        devvm upgrade    # sync the VM with the new devvm version (non-destructive)
 
       Docs: https://github.com/indranandjha1993/devvm/tree/main/docs
     EOS

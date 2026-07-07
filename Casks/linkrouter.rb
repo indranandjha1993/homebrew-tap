@@ -1,6 +1,6 @@
 cask "linkrouter" do
   version "1.0.0"
-  sha256 "8cb6722894a53acf6a2a2b8322408e81165f4f8b123974d9ed7546f93a01b7c1"
+  sha256 "c343cac1049665d3dd6a127c55bd7f3166598686cdf33227c9d7f9ef7cc34f63"
 
   url "https://github.com/indranandjha1993/LinkRouter/releases/download/v#{version}/LinkRouter.app.zip"
   name "LinkRouter"
